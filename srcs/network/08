@@ -1,0 +1,6 @@
+#!/bin/bash
+
+whois who.int
+
+#with whois command we get a bunch of data where the top lines
+#giving for this task the anwser with a hyperlink

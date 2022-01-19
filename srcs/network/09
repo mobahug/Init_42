@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#dig +short 42.fr
+#dns lookup utility
+
+#another option
+#nslookup 42.fr | awk '{print $2}' | awk 'NR==6 {print}'
+
+#short with the pls sign showing for us ONLY the external
+#ip adress of what we searching
+
+163.172.250.16

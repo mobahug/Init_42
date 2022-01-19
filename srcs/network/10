@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#identify the network devices (and listing out)
+#between user computer and domain
+
+traceroute who.int
