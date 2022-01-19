@@ -1,0 +1,3 @@
+#!/bin/bash
+
+nslookup who.int | awk /Server/'{print $2}'
