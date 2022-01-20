@@ -3,7 +3,7 @@
 #Make the intra.42.fr address reroute to 46.19.122.85
 
 #we need also permission to append this
-#sudo echo in this combination is "installing" the text and ">>" append
+#sudo echo in this combination is "executing" the text and ">>" append
 #to the /etc/hosts file the given string
 
 #sudo echo "46.19.122.85 intra.42.fr" >> /etc/hosts
