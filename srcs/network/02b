@@ -5,5 +5,4 @@
 BB=`ifconfig en0 | grep broadcast | awk '{print $6}'`
 echo ${BB}
 ping ${BB} -t 1
-arp -a
-#| awk '{print $2}' | grep `echo ${BB.//}`
+arp -a | awk '{print $2}' | grep `echo "${BB//.255}"`
