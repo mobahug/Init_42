@@ -3,5 +3,6 @@
 #Identify the IP address of the DNS that responds to the following url: who.int
 
 #nslookup is for Name Server Look up, get info from DNS server
+#nslookup who.int
 
 nslookup who.int | awk '/Server/{print $2}'
