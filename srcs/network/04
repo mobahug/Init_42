@@ -4,4 +4,4 @@
 
 #-rn showing Routing Networks
 
-netstat -rn | awk '/default/{print $2}' | awk 'NR == 1 {print}'
+netstat -rn | awk '/default/{print}' | awk 'NR == 1 {print}'

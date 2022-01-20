@@ -3,6 +3,8 @@
 #Get the complete path of the file that contains the IP address of the DNS server
 #you’re using
 
-#find /etc/resolv.conf open in vs code
+#open in vs code
+
+#find /etc/resolv.conf
 
 /etc/resolv.conf

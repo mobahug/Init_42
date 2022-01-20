@@ -3,5 +3,9 @@
 #Thanks to the previous question and the reverse DNS find the name of your host
 
 #nslookup 10.11.1.7
+#echo 7.1.11.10.in-addr.arpa  name = c1r1p7.hive.fi.
 
+#or
+
+#nslookup 10.11.1.7 | awk '/name/ {print}'
 7.1.11.10.in-addr.arpa  name = c1r1p7.hive.fi.

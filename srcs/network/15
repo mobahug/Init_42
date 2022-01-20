@@ -6,4 +6,6 @@
 #sudo echo in this combination is "installing" the text and ">>" append
 #to the /etc/hosts file the given string
 
-sudo echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+#sudo echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+#echo 46.19.122.85 intra.42.fr
+46.19.122.85 intra.42.fr

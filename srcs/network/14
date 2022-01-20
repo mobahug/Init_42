@@ -4,4 +4,6 @@
 
 #to open use find /etc/hosts command in vs code nd click to the result
 
+#echo /etc/hosts
+
 /etc/hosts
