@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Identify broadcast address
+
+#computer IP adress is 10.11.1.7 then broadcast adress will be 10.11.255.255
+#handling all hosts in the same subnet
+
+ifconfig en0 | grep broadcast | awk '{print $6}'

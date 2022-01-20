@@ -1,3 +1,7 @@
 #!/bin/bash
 
+#Identifiy the default gateway in the routing table
+
+#-rn showing Routing Networks
+
 netstat -rn | awk '/default/{print $2}' | awk 'NR == 1 {print}'

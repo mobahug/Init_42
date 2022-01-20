@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#What file contains the local DNS entries?
+
+#to open use find /etc/hosts command in vs code nd click to the result
+
+/etc/hosts

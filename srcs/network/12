@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#Find the IP that was assigned to you by dhcp server
+
+#ipconfig getpacket en0
+#yiaddr is the IP adress what assigned dhcp server for us
+
+ifconfig en0 | awk '/netmask/ {print $2}'

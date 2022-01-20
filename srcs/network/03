@@ -1,3 +1,6 @@
 #!/bin/bash
 
-ifconfig en0 | awk '/ether/{print $2}'
+#Identify the MAC address of the Wi-Fi card
+#networksetup -listallhardwareports
+
+ifconfig en1 | awk '/ether/{print $2}'

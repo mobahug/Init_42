@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Find the provider of who.int
+
 whois who.int
 
 #with whois command we get a bunch of data where the top lines
