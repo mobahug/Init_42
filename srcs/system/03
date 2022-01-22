@@ -1,3 +1,5 @@
-#What file has to be modified to make it permanent?
+# What file has to be modified to make it permanent?
 
-cat /etc/hostname
+# cat /etc/hostname
+
+/etc/hostname

@@ -1,0 +1,10 @@
+# Name the command that determines the state of the SSH service.
+
+# SSH provides password or public-key based authentication and
+# encrypts connections between two network endpoints.
+# In addition to providing strong encryption,
+# SSH is widely used by network administrators to manage systems and
+# applications remotely, deliver software patches, or
+# execute commands and move files.
+
+systemctl status ssh

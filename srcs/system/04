@@ -1,0 +1,5 @@
+# What command gives you the time since your system was last booted?
+
+# who -b #when system were booted (when "borned")
+
+uptime #tells how "old", so how many times spent since last reboot

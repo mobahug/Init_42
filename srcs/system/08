@@ -1,0 +1,12 @@
+# What file contains the RSA keys of systems that
+# are authorized to connect via SSH?
+
+# SSH key is an access credential for the SSH (secure shell)
+# network protocol
+
+# SSH supports several public key algorithms for authentication keys.
+# These include: rsa - an old algorithm based on the difficulty of factoring large numbers.
+# A key size of at least 2048 bits is recommended for RSA; 4096 bits is better.
+# RSA is getting old and significant advances are being made in factoring.
+
+~/.ssh/authorized_keys
