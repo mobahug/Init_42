@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Figure out the exact size of each folder of /var in a humanly
+# understandable way followed by the path of it.
+
+# differennce between df and du;
+
+# du checks more specificaly like files/directories
+# df summarising that
+
+du -h /var

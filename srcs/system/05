@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Name the command that determines the state of the SSH service.
 
 # SSH provides password or public-key based authentication and

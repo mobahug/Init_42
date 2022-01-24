@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # What command lets you know who is connected to the System?
 
 # w command is used to show logged-in user names and what they are doing.

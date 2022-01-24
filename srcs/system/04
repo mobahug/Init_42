@@ -1,5 +1,7 @@
+#!/bin/bash
+
 # What command gives you the time since your system was last booted?
 
 # who -b #when system were booted (when "borned")
 
-uptime #tells how "old", so how many times spent since last reboot
+uptime #tells how "old", so how much time went since last reboot

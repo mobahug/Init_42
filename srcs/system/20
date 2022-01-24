@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# List all existing users on the VM
+
+# -F - Define  the input FIELD separator
+
+awk -F':' '{ print $1}' /etc/passwd

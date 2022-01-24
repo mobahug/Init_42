@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Find the command that add a new local user
+
+sudo adduser username

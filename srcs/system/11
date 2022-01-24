@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Name the command that displays the available space left and used on the system
+# in an humanly understandable way
+
+# The df command is a command line utility for reporting file system disk
+# space usage. It can be used to show the free space on a Unix or Linux computer
+# and to understand the filesystems that have been mounted.
+
+# -h will multiplied the size by 1024 and add GB, MB (human readability)
+
+df -h

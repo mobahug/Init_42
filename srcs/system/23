@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Explain how connect yourself as new user.
+# (With graphic session and ssh session)
+
+in graphical session:
+
+we launch the VM and we connect by filling in login/password (username/password)
+
+
+in ssh session:
+
+we write ssh user@vm_ip then the password

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# List all services which are started at boot time
+# and name this kind of services
+
+sudo systemctl list-unit-files --type=service --state=enabled --all
+
+# enable means it started with system bootup

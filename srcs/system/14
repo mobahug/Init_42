@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Run the ‘tail -f /var/log/syslog‘ command in background
+
+# sudo will give the shell job [1] and process ID (for killing it later)
+# and & gonna run it in the background the command
+
+sudo tail -f /var/log/syslog &
