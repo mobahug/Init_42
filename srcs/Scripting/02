@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Write a script which delete an ACTIVE user on the VM.
+
+echo "Choose from the list a login to be deleted"
+ls /home
+read login
+
+BB = `userdel -r ${login}`
+echo "Removing ${BB} (valid)"
