@@ -5,4 +5,4 @@
 #nslookup is for Name Server Look up, get info from DNS server
 #nslookup who.int
 
-dig who.int +short
+nslookup who.int | awk '/Server/{print $2}'
