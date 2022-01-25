@@ -3,17 +3,17 @@
 printf "\033[0;35mHello, what is your name?\n"
 
 printf "\033[0mMy name is "
-read -r name
+read name
 
 printf "\033[0;35mGender?\n"
 
 printf "\033[0mboy/girl: "
-read -r gender
+read gender
 
 printf "\033[0;35mWhat is your favorite programming language?\n"
 
 printf "\033[0mYour answer: "
-read -r language
+read language
 
 printf "\033[0;32mAnswers:\n"
 printf "1. $name\n"
