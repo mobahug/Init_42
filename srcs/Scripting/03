@@ -11,12 +11,10 @@ printf "\033[0mboy/girl: "
 read -r gender
 
 printf "\033[0;35mWhat is your favorite programming language?\n"
-#printf -e "${RED}What is your favorite programming language?"
 
 printf "\033[0mYour answer: "
 read -r language
 
-printf
 printf "\033[0;32mAnswers:\n"
 printf "1. $name\n"
 printf "2. $gender\n"
