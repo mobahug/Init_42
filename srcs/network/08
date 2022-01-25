@@ -2,7 +2,7 @@
 
 #Find the provider of who.int
 
-whois who.int
+Cloudlfare
 
-#with whois command we get a bunch of data where the top lines
-#giving for this task the anwser with a hyperlink
+#lookup webpage provider search words
+#https://hostingchecker.com/
